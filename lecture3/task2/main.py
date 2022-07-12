@@ -20,3 +20,7 @@ def controlled_execution(call_count, start_sleep_time, factor, border_sleep_time
         return wrapper
 
     return controlled_function
+
+
+if __name__ == '__main__':
+    pass
