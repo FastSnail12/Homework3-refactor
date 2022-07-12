@@ -30,4 +30,5 @@ def multiplier(number: int):
 
 
 if __name__ == '__main__':
-    pass
+    print(multiplier(6))
+    print(multiplier(12))

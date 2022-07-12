@@ -22,5 +22,10 @@ def controlled_execution(call_count, start_sleep_time, factor, border_sleep_time
     return controlled_function
 
 
+@controlled_execution(5, 1, 1, 10)
+def test(number):
+    return number ** 2
+
+
 if __name__ == '__main__':
-    pass
+    test(5)
